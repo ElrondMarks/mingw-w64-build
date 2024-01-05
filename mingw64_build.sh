@@ -302,7 +302,7 @@ _build_gcc_core_complete() {
 
 _main() {
     mkdir -p $BUILD_SRCDIR
-    #_install_program
+    _install_program
     _download_source
     # build
     _build_prepare_common binutils _build_binutils
