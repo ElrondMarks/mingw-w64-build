@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# mingw-w64
+PACKAGE_MINGW_W64_VER=11.0.0
+PACKAGE_MINGW_W64_URL=https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v${PACKAGE_MINGW_W64_VER}.zip
+
+# binutils
+PACKAGE_BINUTILS_VER=2.41
+PACKAGE_BINUTILS_URL=https://mirrors.tuna.tsinghua.edu.cn/gnu/binutils/binutils-${PACKAGE_BINUTILS_VER}.tar.xz
+
+# gcc
+PACKAGE_GCC_VER=11.3.0
+PACKAGE_GCC_URL=https://mirrors.tuna.tsinghua.edu.cn/gnu/gcc/gcc-${PACKAGE_GCC_VER}/gcc-${PACKAGE_GCC_VER}.tar.xz
+
+# expat
+PACKAGE_EXPAT_VER=2.5.0
+PACKAGE_EXPAT_URL=https://sourceforge.net/projects/expat/files/expat/${PACKAGE_EXPAT_VER}/expat-${PACKAGE_EXPAT_VER}.tar.xz
+
+# gdb
+PACKAGE_GDB_VER=11.1
+PACKAGE_GDB_URL=https://mirrors.tuna.tsinghua.edu.cn/gnu/gdb/gdb-${PACKAGE_GDB_VER}.tar.gz
+
+# make
+PACKAGE_MAKE_VER=4.2.1
+PACKAGE_MAKE_URL=https://mirrors.tuna.tsinghua.edu.cn/gnu/make/make-${PACKAGE_MAKE_VER}.tar.gz
+
+# nasm
+PACKAGE_NASM_VER=2.16.01
+PACKAGE_NASM_URL=https://www.nasm.us/pub/nasm/stable/nasm-${PACKAGE_NASM_VER}.tar.gz
